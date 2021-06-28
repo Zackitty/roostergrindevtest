@@ -1,0 +1,31 @@
+#topBannerImage{
+  height: 35vh;
+  position: relative;
+  width:100 %
+}
+
+#topBannerImageContainer{
+  width: 100%
+}
+
+#topBannerId{
+height: 35vh;
+width:100%;
+display: grid;
+grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+justify-items: center;
+}
+
+#topBannerButtonContainer{
+  width: 75px;
+  height: 25px;
+  justify-content: center;
+
+  grid-column-end: 6;
+  grid-row: 13;
+}
+
+#logoWhite: {
+  
+}

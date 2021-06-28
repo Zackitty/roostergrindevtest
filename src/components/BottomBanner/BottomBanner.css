@@ -1,0 +1,19 @@
+/* #bottomBannerWrapper{
+  display: grid;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+ 
+}
+
+#followUsDiv{
+  display: grid;
+  grid-row-start: 2;  
+  grid-row-end: span 3;
+}
+
+#followUs{
+  display: grid;
+  grid-row-start: 4;  
+  grid-row-end:5;
+} */

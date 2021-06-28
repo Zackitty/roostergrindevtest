@@ -1,0 +1,19 @@
+#homeWrapper {
+display: grid;
+height: 100%;
+width: 100%
+}
+#topBannerContainer{
+height: 33vh;
+width: 100%
+}
+
+#bottomBannerDiv{
+
+    display: grid;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-items: center;
+   
+  
+}

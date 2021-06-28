@@ -1,15 +1,15 @@
 
 import './App.css';
 import React, {useEffect } from 'react';
+import HomeWrapper from './components/HomeWrapper'
 import { BrowserRouter, Switch, Route, NavLink, useHistory} from 'react-router-dom';
-import Home from './components/Home'
 
 function App() {
   return (
     <BrowserRouter>
         <Switch>
           <Route path ='/'>
-            <Home />
+            <HomeWrapper />
           </Route>
         </Switch>
     </BrowserRouter>
