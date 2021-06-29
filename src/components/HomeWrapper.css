@@ -1,19 +1,49 @@
 #homeWrapper {
 display: grid;
-height: 100vh;
-width: 100vw
+height: 500vh;
+width: 200vw;
+grid-template-rows: repeat(20, 5%)
 }
 #topBannerContainer{
 height: 33vh;
 width: 100vw
 }
 
-#bottomBannerDiv{
+#secondRowContainer{
+grid-row-start: 2;
+margin-top: 2vh;
+}
 
-    display: grid;
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      justify-items: center;
-   
-  
+#thirdRowContainer{
+  grid-row-start: 7;
+  margin-top: -1vh;
+  height: 90vh;
+}
+
+#fourthRowContainer{
+  height: 90vh;
+  grid-row-start: 10;
+  margin-top: 14vh;
+  background-color: red;
+}
+
+#fifthRowContainer{
+  height: 90vh;
+  grid-row-start: 13;
+  margin-top: 29vh;
+  background-color: blue;
+}
+
+#sixthRowContainer{
+  height: 60vh;
+  grid-row-start: 18;
+  margin-top: -6vh;
+  background-color: green;
+}
+
+#bottomRowContainer {
+  height: 21vh;
+  grid-row-start: 20;
+  background-color: pink;
+  margin-top: 4vh;
 }

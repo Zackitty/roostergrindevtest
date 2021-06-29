@@ -37,22 +37,22 @@ const HomeWrapper = (props) => {
       <div id="topBannerContainer">
       <TopBanner makeMdal1Visible={makeModal1Visible} makeModal1Invisible={makeModal1Invisible} />
       </div>
-      <div>
+      <div id="secondRowContainer">
       <SecondRowContainer />
       </div>
-      <div>
+      <div id="thirdRowContainer">
       <ThirdRowBanner />
       </div>
-      <div>
+      <div id="fourthRowContainer">
       <FourthRowContainer />
       </div>
-      <div>
+      <div id="fifthRowContainer">
       <FifthRowBanner />
       </div>
-        <div>
+      <div id="sixthRowContainer">
         <SixthRowContainer />
         </div>
-        <div >
+        <div id="bottomRowContainer">
           <BottomBanner />
         </div>
         

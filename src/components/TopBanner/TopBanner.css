@@ -23,7 +23,7 @@ justify-items: center;
   height: 5vh;
   justify-content: center;
   display: grid;
-  margin-right: 3%;
+  margin-right: 8vw;
   grid-column-end: 12;
   grid-row: 14;
 }
@@ -48,11 +48,11 @@ justify-items: center;
 }
 
 #outlineLetterLogo{
-font-size: 300%;
-width:200%;
+font-size: 8vw;
+width:200vw;
 -webkit-text-stroke-width: 2px;
 -webkit-text-stroke-color: white;
-grid-column-end: 3;
+grid-column-end: 2;
 grid-row-start: 5;
 display: grid;
 color: rgba(0, 0, 0, 0);
@@ -61,17 +61,19 @@ font-family: 'Roboto', sans-serif;
 
 #outlineLetterLogoContainer{
   display: grid;
-  grid-row-start: 5;
-  width:200%;
+  grid-row-start: 0;
+  width: 50vw;
+  height: 50vh;
 grid-column-end: 1;
+margin-top: -10vh;
 }
 
 #bigLogoContainer{
   display: grid;
   position: relative;
-  height: 200%;
-  width: 500%;
-  grid-column-end: 13;
+  height: 50vh;
+  width: 50vw;
+  grid-column-end: 11;
   grid-row-end: 5;
   grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
 grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
@@ -79,18 +81,20 @@ grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
 
 #thickLetterLogoContainer{
   display: grid;
-  width: 900%;
-  height: 50%;
-
-  grid-column-end: 5;
-  margin-left: -10vw;
-  grid-row-end: 10;
+  width: 20vw;
+  height: 50vh;
+margin-right: -100vw;
+  grid-column-end: 0;
+  margin-left: -8vw;
+  grid-row-end: 4;
 }
 
 #thickLetterLogo{
-font-size: 200%;
-width:200%;
-grid-column-end: 3;
+  margin-left: 15vw;
+font-size: 5vw;
+width:35vw;
+grid-column-end: 1;
+grid-row-end: 3;
 color: white;
 font-family: 'Roboto', sans-serif;
 }

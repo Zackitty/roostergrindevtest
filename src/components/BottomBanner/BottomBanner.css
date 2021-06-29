@@ -1,6 +1,6 @@
-/* #bottomBannerWrapper{
+#bottomBannerWrapper{
   display: grid;
-    display: grid;
+    height: 20vh;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
  
@@ -16,4 +16,4 @@
   display: grid;
   grid-row-start: 4;  
   grid-row-end:5;
-} */
+}
