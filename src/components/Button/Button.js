@@ -12,7 +12,7 @@ const Button = ({makeModal1Visible, makeModal1Invisible, colorScheme, buttonText
   
   return (
       <div class={'roosterGrinButton'} id={colorScheme} onClick={makeModal1Visible}> 
-         {buttonText}
+         <p id="innerButtonText">{buttonText}</p>
       </div>
    )}
 

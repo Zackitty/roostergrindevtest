@@ -19,12 +19,22 @@ const TopBanner = ({makeModal1Visible, makeModal1Invisible}) => {
             src={hero}
           />
           </div>
-          <div id="topBannerButtonContainer">
-          <Button colorScheme={'purpleButton'} buttonText={"Button Button"} makeModal1Visible={makeModal1Visible} makeModal1Invisible={makeModal1Invisible}/>
+          <div id="bigLogoContainer">
+            <div id='outlineLetterLogoContainer'>
+              <p id="outlineLetterLogo">WELCOME TO</p>
+            </div>
+            <div id='thickLetterLogoContainer'>
+              <p id="thickLetterLogo">ROOSTER GRIN</p>
+            </div>
           </div>
-          <img id="logoWhite"
+          <div id="topBannerButtonContainer">
+          <Button colorScheme={'purpleButton'} buttonText={"BUTTON BUTTON"} makeModal1Visible={makeModal1Visible} makeModal1Invisible={makeModal1Invisible}/>
+          </div>
+          <div id={'logoWhiteContainer'}>
+            <img id="logoWhite"
             src={logoWhite}
           />
+          </div>
       </div>
    )}
 
