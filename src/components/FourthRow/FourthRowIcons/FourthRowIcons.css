@@ -1,0 +1,16 @@
+.fourthIcon{
+  height: 10vh;
+  width: 10vh
+}
+
+#iconWrapper{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  
+}
+
+#iconFive{}
+#iconFour{}
+#iconThree{}
+#iconTwo{}

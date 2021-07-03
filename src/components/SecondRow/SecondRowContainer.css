@@ -1,6 +1,10 @@
-#secondRowContainer{
+#secondRowWrapper{
   display: grid;
-  height: 50vh;
+  grid-row-start: 4;
+margin-top: 0vh;
+height: 80vh;
+  grid-row-start: 2;
+  
   width: 100vw;
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
@@ -9,7 +13,8 @@
 
 #secondLoremWrapper{
 grid-column-start: 1;
-grid-row-start: 1;
+height: 100%;
+
 }
 
 #secondPicWrapper{

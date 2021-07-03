@@ -1,7 +1,7 @@
 #homeWrapper {
 display: grid;
 height: 500vh;
-width: 200vw;
+width: 100vw;
 grid-template-rows: repeat(20, 5%)
 }
 #topBannerContainer{
@@ -10,8 +10,9 @@ width: 100vw
 }
 
 #secondRowContainer{
-grid-row-start: 2;
-margin-top: 2vh;
+grid-row-start: 4;
+margin-top: 5.01vh;
+height: 80vh
 }
 
 #thirdRowContainer{
@@ -24,26 +25,26 @@ margin-top: 2vh;
   height: 90vh;
   grid-row-start: 10;
   margin-top: 14vh;
-  background-color: red;
+ 
 }
 
 #fifthRowContainer{
   height: 90vh;
   grid-row-start: 13;
   margin-top: 29vh;
-  background-color: blue;
+
 }
 
 #sixthRowContainer{
   height: 60vh;
   grid-row-start: 18;
   margin-top: -6vh;
-  background-color: green;
+  
 }
 
 #bottomRowContainer {
   height: 21vh;
   grid-row-start: 20;
-  background-color: pink;
+
   margin-top: 4vh;
 }

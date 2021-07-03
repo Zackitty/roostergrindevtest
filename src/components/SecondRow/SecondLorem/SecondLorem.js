@@ -11,10 +11,11 @@ const SecondLorem = (props) => {
   
   return (
       <div id='secondLoremWrapper'> 
+         <div id='secondLoremSquare'>
          <div>
             <p id="secondLoremTitle">LOREM IPSUM</p>
          </div>
-         <div>
+         <div id="secondLoremParagraphContainer">
             <p>
             Loremn ipsum dolor sit amet, et felis integer. Cras ac, duis nisl magna
             est sociis, neque in odio vel, sit lobortis erat. Fugit quam, ut pede ut ante,
@@ -24,7 +25,8 @@ const SecondLorem = (props) => {
             </p>
          </div>
          <div>
-            <p> > Lorem Ipsum</p>
+            <p id="loremLink"> > Lorem Ipsum</p>
+         </div>
          </div>
       </div>
    )}

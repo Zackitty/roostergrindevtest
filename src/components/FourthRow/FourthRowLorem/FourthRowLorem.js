@@ -4,15 +4,26 @@ import './FourthRowLorem.css'
 const FourthRowLorem = (props) => {
   
 
-  useEffect(() => {
-  
-  },[])
 
   
   return (
-      <div> 
-    
-      </div>
+   <div id='fourthLoremWrapper'> 
+   <div id='fourthLoremSquare'>
+   <div>
+      <p id="fourthLoremTitle">LOREM IPSUM DOLOR SIT AMET</p>
+   </div>
+   <div id="fourthLoremParagraphContainer">
+      <p>
+      Loremn ipsum dolor sit amet, et felis integer. Cras ac, duis nisl magna
+      est sociis, neque in odio vel, sit lobortis erat. Fugit quam, ut pede ut ante,
+      in viverra eros dictum nisl ligula. 
+      </p>
+   </div>
+   <div>
+      <p id="fourthLoremLink"> > Lorem Ipsum</p>
+   </div>
+   </div>
+</div>
    )}
 
 export default FourthRowLorem;

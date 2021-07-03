@@ -1,0 +1,81 @@
+#sixthRowCarouselWrapper{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(5, 20%);
+}
+#myCarousel{
+  width: 50vw;
+  height: 55vh;
+}
+#carouselId{
+  grid-row-start: 1;
+  position: relative;
+  z-index: 4;
+}
+
+
+
+#johnDoe{
+  color: purple;
+ font-size: 3vh;
+ width: 20vw;
+}
+
+
+.right.carousel-control{
+color: purple;
+background-image: none;
+}
+
+.left.carousel-control{
+  color: purple;
+  background-image: none;
+
+  }
+ 
+  .carousel-indicators {
+    grid-row-end: 4;
+  }
+
+  #precious{
+    background-color: yellow;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    grid-row-end: 4;
+  }
+
+
+#precious.active{
+  border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: orange;
+  }
+
+#myCarousel.carousel.slide{
+display: grid;
+grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(5, 20%);
+}
+
+
+  ol.carousel-indicators{
+    grid-row-end: 6;
+  }
+
+  #carousel-new-inner{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    margin-left: 2vw;
+    height: 30vh;
+    width: 26vw;
+  }
+
+  #johnDoeContent{
+    font-size: 1vw;
+  }

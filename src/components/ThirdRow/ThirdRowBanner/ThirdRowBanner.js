@@ -11,7 +11,13 @@ const ThirdRowBanner = (props) => {
 
   
   return (
-      <div> 
+      <div id='thirdRowBannerWrapper'> 
+         <div id='thirdBannerSquare'> 
+         <p id="thirdRowLorem">Lorem Ipsum</p>
+         <div id="thirdRowBannerButtonContainer">
+         <Button colorScheme={"orangeButton"} buttonText={"BUTTON BUTTON"}/>
+         </div>
+         </div>
          <img id="thirdRowBannerImg" src={img} />
       </div>
    )}

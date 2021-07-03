@@ -1,3 +1,22 @@
 #sixthRowWrapper{
   height: 60vh;
+  display: grid;
+  grid-row-start: 4;
+margin-top: 0vh;
+  grid-row-start: 2;
+  width: 100vw;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+
+}
+
+#sixthLoremContainer{
+grid-column-start: 1;
+
+
+}
+
+#sixthRowCarouselContainer{
+grid-column-start: 2;
+
 }

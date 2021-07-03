@@ -1,2 +1,33 @@
-#secondLoremWrapper{}
-#secondLoremTitle{}
+#secondLoremWrapper{
+  display: grid;
+  background-color: white;
+  grid-template-columns: repeat(8, 20%);
+  grid-template-rows: repeat(5, 20%);
+  height: 100%
+}
+#secondLoremTitle{
+color: purple;
+font-family: 'Roboto', sans-serif;
+font-size: 4vw;
+font-weight: 700;
+margin-bottom: -1vh;
+}
+
+#loremLink{ 
+  color: purple;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2vw;
+  font-weight: 700;
+  font-style: bold;
+}
+#secondLoremParagraphContainer{
+
+
+}
+
+#secondLoremSquare{
+  display: grid;
+  width: 30vw;
+  grid-row-start: 3;
+  grid-column-start: 9;
+}

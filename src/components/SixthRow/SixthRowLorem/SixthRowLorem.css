@@ -1,0 +1,21 @@
+#sixthLoremWrapper{
+  display: grid;
+  background-color: white;
+
+  height: 100%
+}
+#sixthLoremTitle{
+color: purple;
+font-family: 'Roboto', sans-serif;
+font-size: 8vh;
+font-weight: 700;
+margin-bottom: -1vh;
+}
+
+
+#sixthLoremSquare{
+  display: grid;
+  width: 30vw;
+  grid-row-start: 3;
+  grid-column-start: 9;
+}

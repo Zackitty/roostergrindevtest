@@ -1,19 +1,50 @@
 #bottomBannerWrapper{
   display: grid;
     height: 20vh;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(5, 20%);
     justify-items: center;
+    background-color: rgb(250,250,250);
  
 }
 
 #followUsDiv{
-  display: grid;
-  grid-row-start: 2;  
-  grid-row-end: span 3;
+  grid-column-start: 4;  
+  grid-row-start: 1;  
+  height:1vh;
+  width: 50vw;
+  position: relative;
+  z-index: 3;
 }
 
-#followUs{
-  display: grid;
-  grid-row-start: 4;  
-  grid-row-end:5;
+#followUsP{
+ color: black;
+ font-size: 1.5vw;
+ position: absolute;
+  z-index: 4;
+  height:1vh;
+  width: 10vw;
+  font-weight: 700;
+}
+
+#socialMediaIcons{
+  position: relative;
+  z-index: 3;
+  grid-column-start: 3; 
+  grid-row-start: 3;  
+}
+
+#bottomFacebook{
+  height: 2vh;
+  width: 2vw;
+  color: purple;
+  background-color: purple;
+}
+
+#bottomInsta{
+  height: 20vh;
+  color: purple;
+  z-index: 4;
+  position: relative;
+  width: 20vw;
 }

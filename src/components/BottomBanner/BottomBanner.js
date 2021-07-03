@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './BottomBanner.css'
-
-
+import insta from '../../front-end-dev-test-assets/instagram.svg'
+import face from '../../front-end-dev-test-assets/facebook.svg'
 const BottomBanner = (props) => {
   
 
@@ -12,15 +12,15 @@ const BottomBanner = (props) => {
   
   return (
       <div id="bottomBannerWrapper"> 
-          <div id="follUsDiv">
-            <p id="followUs">Follow Us:</p>
+          <div id="followUsDiv">
+            <p id="followUsP">Follow Us:</p>
           </div>
         <div id="socialMediaIcons">
-         <img
-            source={require('../../front-end-dev-test-assets/facebook.svg')}
+         <img id="bottomFacebook"
+            src={face}
           />
-        <img
-            source={require('../../front-end-dev-test-assets/instagram.svg')}
+        <img id="bottomInsta"
+            src={insta}
           />
           </div>
       </div>

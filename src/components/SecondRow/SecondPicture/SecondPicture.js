@@ -2,14 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './SecondPicture.css'
 import img from '../../../front-end-dev-test-assets/img-1.jpg'
 const SecondPicture = (props) => {
-  
-
-  useEffect(() => {
-  
-  },[])
-
-  
-  return (
+    return (
       <div id='secondRowPicContainer'>  
         <img id="secondRowPic" src={img}></img>
       </div>

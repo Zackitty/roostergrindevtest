@@ -4,14 +4,8 @@ import SecondLorem from './SecondLorem/SecondLorem';
 import SecondPicture from './SecondPicture/SecondPicture'
 const SecondRowContainer = (props) => {
   
-
-  useEffect(() => {
-  
-  },[])
-
-  
-  return (
-      <div id="secondRowContainer"> 
+   return (
+      <div id="secondRowWrapper"> 
          <div id='secondLoremWrapper'>
          <SecondLorem />
          </div>
