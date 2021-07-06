@@ -1,81 +1,85 @@
-#topBannerImage{
+#top-banner-container{
   height: 80vh;
-  position: relative;
-  width:100vw
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(15, 5%);
+  grid-template-rows: repeat(10, 5%);
 }
 
-#topBannerContainer{
-height: 80vh 
+#top-banner-image-wrapper{
+    width: 100vw;
+    height: 80vh;
+    grid-column: 1/20 
 }
 
-#topBannerImageContainer{
-  width: 100vw;
+#top-banner-image{
   height: 80vh;
-  grid-column: 1/20 
-}
-
-#topBannerId{
-height: 80vh;
-width: 100%;
-display: grid;
-grid-template-columns: repeat(15, 5%);
-grid-template-rows: repeat(10, 5%);
-
-}
-
-#topBannerButtonContainer{
-  display: grid;
-  grid-column: 10 / span 2;
-  grid-row: 11;
-  margin-top: 50%;
-}
-
-#logoWhite {
-  width: 20vw;
-  height: 10vh;
-}
-
-#logoWhiteContainer {
-    width: 20vw;
-    height: 10vh;
-    z-index: 3;
-    margin-right: -10vh;
-    margin-top: -10vh;
-    grid-column-end: 3;
-    grid-row: 4;
-
-}
-
-#outlineLetterLogo{
-font-size: 5.6vw;
--webkit-text-stroke-width: 2px;
--webkit-text-stroke-color: white;
-grid-column-start: 2;
-margin-left: -5%;
-color: rgba(0, 0, 0, 0);
-font-family: 'Roboto', sans-serif;
-}
-
-#outlineLetterLogoContainer{
-display: grid;
-width: 50vw;
-height: 20vh;
-margin-left: -2vw;
-margin-top:  -5vh;
-}
-
-#bigLogoContainer{
-  display: grid;
+  width:100vw;
   position: relative;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+  
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+#logo-container{
+  display: grid;
   height: 50vh;
   width: 50vw;
   grid-column-end: 8;
   grid-row-end: 8;
-  grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
-grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+  position: relative;
+  grid-template-columns: repeat(18, 5%);
+  grid-template-rows: repeat(20, 5%)
 }
 
-#thickLetterLogoContainer{
+#outline-letter-logo-wrapper{
+  display: grid;
+  width: 50vw;
+  height: 20vh;
+  margin-left: -2vw;
+  margin-top:  -5vh;
+}
+
+#outline-letter-logo{
+  font-size: 5.6vw;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  color: rgba(0, 0, 0, 0);
+  font-family: 'Roboto', sans-serif;
+  grid-column-start: 2;
+  margin-left: -5%;
+}
+
+#thick-letter-logo-wrapper{
   display: grid;
   width: 50vw;
   height: 25vh;
@@ -84,8 +88,105 @@ grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
   margin-right: -4vw;
 }
 
-#thickLetterLogo{ 
+#thick-letter-logo{ 
 font-size: 5vw;
 color: white;
 font-family: 'Roboto', sans-serif;
 }
+
+
+#logo-white-wrapper {
+  width: 20vw;
+  height: 10vh;
+  z-index: 3;
+  grid-column-end: 3;
+  grid-row: 4;
+  margin-right: -10vh;
+  margin-top: -10vh;
+}
+
+#logo-white {
+  width: 20vw;
+  height: 10vh;
+}
+
+#top-banner-button-wrapper{
+  display: grid;
+  grid-column: 10 / span 2;
+  grid-row: 11;
+  margin-top: 50%;
+}
+
+
+
+@media only screen 
+and (max-device-width: 769px) {
+  #logo-container{
+    display: grid;
+    height: 250px;
+    width: 700px;
+    grid-column-end: 8;
+    grid-row-end: 10;
+    grid-template-columns: repeat(20, 5%);
+    grid-template-rows: repeat(20, 5%);
+    position: relative;
+  }
+
+  #outline-letter-logo-wrapper{
+    display: grid;
+    width: 500px;
+    height: 100px;
+    grid-column-end: 1;
+    grid-row-start: 6;
+    margin-left: -100px;
+    margin-top: -60px
+  }
+
+  #outline-letter-logo{
+    font-size: 55px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    color: rgba(0, 0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+  }
+    
+    
+  #thick-letter-logo-wrapper{
+    display: grid;
+    width: 500px;
+    height: 100px;
+    grid-column-end: 1;
+    grid-row-end: 8;
+    margin-left: -25px
+   
+  }
+    
+    #thick-letter-logo{ 
+    font-size: 45px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    #logo-white {
+      width: 30vw;
+      height: 20vh;
+    }
+    
+    #logo-white-wrapper {
+      width: 30vw;
+      height: 20vh;
+      z-index: 3;
+      margin-right: -10vh;
+      margin-top: -10vh;
+      grid-column-end: 3;
+      grid-row: 4;
+    }
+    
+    #top-banner-button-wrapper{
+      display: grid;
+      grid-column: 8 / span 2;
+      grid-row: 12;
+      margin-top: -50%
+    }
+   
+  }

@@ -1,22 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './FourthRowContainer.css'
 import FourthRowLorem from './FourthRowLorem/FourthRowLorem'
 import FourthRowIcons from './FourthRowIcons/FourthRowIcons'
 const FourthRowContainer = (props) => {
   
-
-  useEffect(() => {
-  
-  },[])
-
   
   return (
-      <div id="fourthRowWrapper"> 
-         <div id='fourthLoremId'>
-         <FourthRowLorem />
+      <div id="fourth-row-container"> 
+         <div id='fourth-lorem-wrapper'>
+            <FourthRowLorem />
          </div>
-         <div id="fourthPicWrapper">
-         <FourthRowIcons />
+         <div id="fourth-pic-wrapper">
+            <FourthRowIcons />
          </div>
       </div>
    )}

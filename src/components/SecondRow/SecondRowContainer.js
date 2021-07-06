@@ -5,12 +5,12 @@ import SecondPicture from './SecondPicture/SecondPicture'
 const SecondRowContainer = (props) => {
   
    return (
-      <div id="secondRowWrapper"> 
-         <div id='secondLoremWrapper'>
-         <SecondLorem />
+      <div id="second-row-container"> 
+         <div id='second-lorem-wrapper'>
+            <SecondLorem />
          </div>
-         <div id="secondPicWrapper">
-         <SecondPicture />
+         <div id="second-pic-wrapper">
+            <SecondPicture />
          </div>
       </div>
    )}

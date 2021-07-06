@@ -1,0 +1,78 @@
+#modal-container {
+  display: grid;
+  width: 100vw;
+  height: 100vw;
+  background-color: rgba(52, 52, 52, 0.8);
+  z-index: 6;
+  position:fixed;
+  grid-template-rows: repeat(20, 5%);
+  grid-template-columns: repeat(20, 5%);
+}
+
+#modal-placement {
+  display: grid;
+  height: 25vh;
+  width: 40vw;
+  background-color: white;
+  grid-column-start: 7;
+  grid-row-start: 5;
+  grid-template-rows: repeat(20, 5%);
+  grid-template-columns: repeat(20, 5%);
+}
+
+#modal-words {
+width: 40vw;
+font-size: 2vw;
+font-weight: 700;
+color: purple;
+font-family: 'Roboto', sans-serif;
+grid-column-start: 2;
+grid-row-start: 8;
+}
+
+#modal-button-bontainer{
+  grid-column-start: 8;
+  grid-row-start: 14;
+}
+
+@media only screen 
+and (max-device-width: 769px) {
+
+    #modal-container {
+      display: grid;
+      width: 100vw;
+      height: 250vw;
+      background-color: rgba(52, 52, 52, 0.8);
+      z-index: 6;
+      position:fixed;
+      grid-template-rows: repeat(20, 5%);
+      grid-template-columns: repeat(20, 5%);
+    }
+    
+    #modal-placement {
+      display: grid;
+      height: 25vh;
+      width: 40vw;      
+      background-color: white;
+      grid-column-start: 7;
+      grid-row-start: 5;
+      grid-template-rows: repeat(20, 5%);
+      grid-template-columns: repeat(20, 5%);
+    }
+    
+    #modal-words {
+      width: 40vw;
+      font-size: 2vw;
+      font-weight: 700;
+      color: purple;
+      font-family: 'Roboto', sans-serif;
+      grid-column-start: 2;
+      grid-row-start: 8;
+    }
+    
+    #modal-button-container{
+      grid-column-start: 2;
+      grid-row-start: 14;
+      margin-left: 35px;
+    }
+  }

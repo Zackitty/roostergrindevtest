@@ -1,4 +1,12 @@
-#secondRowPic{
+#second-row-pic{
   height: 70vh;
   width: 50vw
 }
+
+@media only screen 
+and (max-device-width: 769px) {
+    #second-row-pic{
+      height: 70vh;
+      width: 100vw
+    }
+  }

@@ -4,22 +4,15 @@ import SixthRowLorem from './SixthRowLorem/SixthRowLorem';
 import SixthRowCarousel from './SixthRowCarousel/SixthRowCarousel'
 
 const SixthRowContainer = (props) => {
-  
-
-  useEffect(() => {
-  
-  },[])
-
-  
   return (
-   <div id="sixthRowWrapper"> 
-   <div id='sixthLoremContainer'>
-   <SixthRowLorem />
+   <div id="sixth-row-container"> 
+      <div id='sixth-lorem-wrapper'>
+         <SixthRowLorem />
+      </div>
+      <div id="sixth-row-carousel-wrapper">
+         <SixthRowCarousel />
+      </div>
    </div>
-   <div id="sixthRowCarouselContainer">
-   <SixthRowCarousel />
-   </div>
-</div>
    )}
 
 export default SixthRowContainer;

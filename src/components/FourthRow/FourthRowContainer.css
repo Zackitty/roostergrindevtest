@@ -1,37 +1,32 @@
-#fourthRowWrapper {
+#fourth-row-container {
   height: 90vh;
   display: grid;
   grid-template-columns: 50% 50%;
   width: 100vw
 }
 
-#fourthPicWrapper{
+#fourth-pic-wrapper{
   grid-column-start: 2;
 }
 
-
-
-#fourthLoremId{
+#fourth-lorem-wrapper{
   background-color: white;
 }
-#fourthLoremTitle{
-color: purple;
-font-family: 'Roboto', sans-serif;
-font-size: 3vh;
-font-weight: 700;
-margin-bottom: -1vh;
+
+@media only screen 
+and (max-device-width: 769px) {
+    #fourth-row-container {
+      display: grid;
+      width: 100vw;
+      height: 120vh;
+      grid-template-columns: repeat(1,100%);
+      grid-template-rows: repeat(2, 50%);
+    }
+    
+    #fourth-pic-wrapper{
+      grid-row-start: 2;
+      grid-column-start:1 ;
+    }
+    
 }
-
-#fourthLoremLink{ 
-  color: purple;
-  font-family: 'Roboto', sans-serif;
-  font-size: 2vh;
-  font-weight: 700;
-  font-style: bold;
-}
-#secondLoremParagraphContainer{
-
-
-}
-
-
+   

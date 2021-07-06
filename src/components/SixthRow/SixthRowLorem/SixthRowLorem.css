@@ -1,37 +1,74 @@
-#sixthLoremWrapper{
+#sixth-lorem-outer-container{
   display: grid;
+  height: 100%;
   background-color: white;
   grid-template-columns: repeat(5, 20%);
   grid-template-rows: repeat(5, 20%);
-  height: 100%
-}
-#sixthLoremTitle{
-color: black;
-font-family: 'Roboto', sans-serif;
-font-size: 7vh;
-font-weight: 700;
-width: 30vw;
 }
 
-
-#sixthLoremSquare{
+#sixth-lorem-inner-container{
   display: grid;
   width: 30vw;
   height: 40vh;
-  grid-template-columns: repeat(5, 20%);
-  grid-template-rows: repeat(5, 20%);
   grid-column-start: 2;
   grid-row-start: 2;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(5, 20%);
 } 
 
+#sixth-lorem-title{
+  width: 400px;
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
 #rating {
-  grid-row-start: 4;
   font-size: 4vh;
+  grid-row-start: 4;
   margin-top: -3vh;
   
 }
-.starSpan {
+.star-span {
   background: rgb(254,114,22);
   color: rgb(254,114,22);
   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
+
+@media only screen 
+  and (max-device-width: 769px) {
+
+    #sixth-lorem-outer-container{
+      display: grid;
+      background-color: white;
+      grid-template-columns: repeat(5, 20%);
+      grid-template-rows: repeat(5, 20%);
+      height: 100%
+    }
+     
+    #sixth-lorem-inner-container{
+      display: grid;
+      width: 30vw;
+      height: 300px;
+      grid-column-start: 2;
+      grid-row-start: 2;
+      grid-template-columns: repeat(5, 20%);
+      grid-template-rows: repeat(5, 20%);
+    } 
+
+    #sixth-lorem-title{
+      width: 60vw;
+      font-size: 4vh;
+      font-weight: 700;
+      color: black;
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    #rating {
+      font-size: 4vh;
+      grid-row-start: 4;
+      margin-top: -10vh;
+    }
+  }
+

@@ -1,7 +1,6 @@
 
-import './App.css';
 import React, {useEffect } from 'react';
-import HomeWrapper from './components/HomeWrapper'
+import HomeContainer from './components/HomeContainer'
 import { BrowserRouter, Switch, Route, NavLink, useHistory} from 'react-router-dom';
 
 function App() {
@@ -9,7 +8,7 @@ function App() {
     <BrowserRouter>
         <Switch>
           <Route path ='/'>
-            <HomeWrapper />
+            <HomeContainer />
           </Route>
         </Switch>
     </BrowserRouter>

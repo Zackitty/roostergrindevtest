@@ -1,40 +1,80 @@
-#fourthLoremWrapper{
+#fourth-lorem-outer-container{
   display: grid;
-  background-color: white;
-   height: 100%;
+  height: 100%;
   width: 50vw;
+  background-color: white;
   grid-template-columns: repeat(5, 20%);
   grid-template-rows: repeat(5, 20%);
-
-}
-#fourthLoremTitle{
-color: black;
-font-family: 'Roboto', sans-serif;
-font-size: 3.2vw;
-font-weight: 700;
-margin-bottom: -1vh;
-
 }
 
-#fourthLoremLink{ 
-  color: purple;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1vw;
-  font-weight: 700;
-  font-style: bold;
-}
-
-
-#fourthLoremSquare{
+#fourth-lorem-inner-container{
   display: grid;
   width: 30vw;
   grid-column-start: 2;
   grid-row-start: 2;
   margin-top: 30%;
   margin-left: 30%;
-
 }
 
-#fourthLoremParagraph{
+#fourth-lorem-title{
+  font-size: 3.2vw;
+  font-weight: 700;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: -1vh;
+}
+
+#fourth-lorem-paragraph{
   font-size: 1vw;
 }
+
+#fourth-lorem-link{ 
+  font-size: 1vw;
+  font-weight: 700;
+  color: rgb(112,75,130);
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+}
+
+
+@media only screen 
+and (max-device-width: 769px) {
+
+    #fourth-lorem-outer-container{
+      display: grid;
+      background-color: white;
+      height: 100%;
+      width: 50vw;
+      grid-template-columns: repeat(5, 20%);
+      grid-template-rows: repeat(5, 20%);
+    }
+
+    #fourth-lorem-inner-container{
+      display: grid;
+      width: 60vw;
+      grid-column-start: 2;
+      grid-row-start: 3;
+      margin-top: -60px;
+      margin-left: 30%;
+    }
+
+    #fourth-lorem-title{
+      font-size: 6vw;
+      font-weight: 700;
+      color: black;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: -2vh;
+    }
+
+    #fourth-lorem-paragraph{
+      font-size: 3vw;
+    }
+    
+    #fourth-lorem-link{ 
+      font-size: 3vw;
+      font-weight: 700;
+      color: rgb(112,75,130);
+      font-family: 'Roboto', sans-serif;
+      font-style: bold;
+    } 
+  }

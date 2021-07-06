@@ -1,36 +1,66 @@
-#secondLoremWrapper{
+#second-lorem-outer-container{
   display: grid;
   background-color: white;
   grid-template-columns: repeat(8, 20%);
   grid-template-rows: repeat(5, 20%);
   height: 69vh;
   width: 62.5%
+  
 }
-#secondLoremTitle{
-color: purple;
+
+#second-lorem-inner-container{
+  display: grid;
+  width: 30vw;
+  grid-row-start: 2;
+  margin-left: 30%;
+  grid-column-start: 2;
+  position: relative;
+}
+
+#second-lorem-title{
+color: rgb(112,75,130);
 font-family: 'Roboto', sans-serif;
-font-size: 3.2vw;
+font-size: 40px;
 font-weight: 700;
-
 }
 
-#loremLink{ 
-  color: purple;
+#second-lorem-paragraph{
+  font-size: 1vw;
+}
+
+#second-lorem-link{ 
+  color: rgb(112,75,130);
   font-family: 'Roboto', sans-serif;
   font-size: 1vw;
   font-weight: 700;
   font-style: bold;
 }
 
+@media only screen 
+and (max-device-width: 769px) {
+  #second-lorem-inner-container{
+    display: grid;
+    width: 500px;
+    grid-row-start: 2;
+    grid-column-start: 2;
+  }
 
-#secondLoremSquare{
-  display: grid;
-  width: 30vw;
-  grid-row-start: 2;
-  margin-left: 30%;
-  grid-column-start: 9;
-}
+  #second-lorem-title{
+    color: rgb(112,75,130);
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  #second-lorem-paragraph{
+    font-size: 20px;
+  }
 
-#secondLoremParagraph{
-  font-size: 1vw;
+  #second-lorem-link{ 
+    color: rgb(112,75,130);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: bold;
+  }
+
 }

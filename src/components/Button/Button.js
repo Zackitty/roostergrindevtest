@@ -1,18 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import hero from '../../front-end-dev-test-assets/hero.jpg'
+import React from 'react';
 import './Button.css'
 
-const Button = ({makeModal1Visible, makeModal1Invisible, colorScheme, buttonText}) => {
-  
-
-  useEffect(() => {
-  
-  },[])
-
-  
+const Button = ({clickHandler, colorScheme, buttonText}) => {
   return (
-      <div className={'roosterGrinButton'} id={colorScheme} onClick={makeModal1Visible}> 
-         <p id="innerButtonText">{buttonText}</p>
+      <div className={'rooster-grin-button'} id={colorScheme} onClick={clickHandler}> 
+         <p id="inner-button-text">{buttonText}</p>
       </div>
    )}
 

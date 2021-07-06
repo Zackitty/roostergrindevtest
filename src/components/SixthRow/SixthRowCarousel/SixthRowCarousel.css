@@ -1,81 +1,159 @@
-#sixthRowCarouselWrapper{
+#sixth-row-carousel-container{
   display: grid;
   width: 100%;
   height: 100%;
+  margin-top: 100px;
   grid-template-columns: repeat(5, 20%);
   grid-template-rows: repeat(5, 20%);
+  margin-top: -40px;
+  margin-left: -30px
 }
-#myCarousel{
+
+#my-carousel{
   width: 50vw;
   height: 55vh;
 }
-#carouselId{
-  grid-row-start: 1;
-  position: relative;
-  z-index: 4;
-}
 
 
-
-#johnDoe{
+#john-doe{
+  width: 20vw;
+  font-size: 3vh;
   color: purple;
- font-size: 3vh;
- width: 20vw;
 }
 
 
 .right.carousel-control{
-color: purple;
-background-image: none;
+  color: purple;
+  background-image: none;
 }
 
 .left.carousel-control{
   color: purple;
   background-image: none;
-
-  }
+}
  
-  .carousel-indicators {
-    grid-row-end: 4;
-  }
+.carousel-indicators {
+  grid-row-end: 4;
+}
 
-  #precious{
-    background-color:rgb(252,229,105);
-    border-radius: 50%;
-    width: 12px;
-    height: 12px;
-    margin: 0;
-    grid-row-end: 4;
-  }
+#precious{
+  background-color:rgb(252,229,105);
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  grid-row-end: 4;
+}
 
 
 #precious.active{
+  width: 12px;
+  height: 12px;  
+  background-color: rgb(251,201,25);
   border-radius: 50%;
-    width: 12px;
-    height: 12px;
-    margin: 0;
-    background-color: rgb(251,201,25)
-  }
+  margin: 0;
+}
 
-#myCarousel.carousel.slide{
-display: grid;
-grid-template-columns: repeat(5, 20%);
+#my-carousel.carousel.slide{
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
   grid-template-rows: repeat(5, 20%);
 }
 
 
-  ol.carousel-indicators{
-    grid-row-end: 6;
-  }
+ol.carousel-indicators{
+  grid-row-end: 6;
+}
 
-  #carousel-new-inner{
-    grid-row-start: 3;
-    grid-column-start: 2;
-    margin-left: 2vw;
-    height: 30vh;
-    width: 26vw;
-  }
+#carousel-new-inner{
+  grid-row-start: 3;
+  grid-column-start: 2;
+  margin-left: 2vw;
+  height: 30vh;
+  width: 26vw;
+}
 
-  #johnDoeContent{
-    font-size: 1vw;
+#john-doe-content{
+  font-size: 1vw;
+}
+
+  @media only screen 
+  and (max-device-width: 769px) {
+
+    #sixth-row-carousel-container{
+      display: grid;
+      width: 100%;
+      height: 100%;
+      grid-template-columns: repeat(5, 20%);
+      grid-template-rows: repeat(5, 20%);
+      margin-top: -50px;
+    }
+
+    #my-carousel{
+      width: 100vw;
+      height: 450px;
+    }
+    
+    #john-doe{
+      width: 60vw;
+      font-size: 3vh;
+      color: purple;
+    }
+    
+    .right.carousel-control{
+      color: purple;
+      background-image: none;
+      margin-bottom: -50px;
+    }
+  
+    .left.carousel-control{
+      color: purple;
+      background-image: none;
+      margin-bottom: -50px;
+    }
+     
+    .carousel-indicators {
+        grid-row-end: 4;    
+    }
+    
+    #precious{
+      background-color:rgb(252,229,105);
+      border-radius: 50%;
+      width: 13px;
+      height: 13px;
+      margin: 0;
+      grid-row-end: 7;
+    }
+    
+    
+    #precious.active{
+      width: 12px;
+      height: 12px;
+      background-color: rgb(251,201,25);
+      margin: 0;
+      border-radius: 50%;
+    }
+    
+    #my-carousel.carousel.slide{
+      display: grid;
+      grid-template-columns: repeat(5, 20%);
+      grid-template-rows: repeat(5, 20%);
+    }
+    
+    
+    ol.carousel-indicators{
+      grid-row-end: 8;    
+    }
+    
+    #carousel-new-inner{
+      grid-row-start: 3;
+      grid-column-start: 2;
+      margin-left: 2vw;
+      height: 30vh;
+      width: 56vw;
+    }
+    
+    #john-doe-content{
+      font-size: 20px;
+    }
   }

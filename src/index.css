@@ -10,3 +10,25 @@
     margin: 0;
     background-color: grey;
   }
+
+
+@media only screen 
+and (max-device-width: 769px) {
+
+  html, body {
+    height: 530vh;
+    width: 100vw;
+    margin: 0;
+    background-color: grey;
+  }
+}
+
+/* @media only screen and (max-device-width: 1024px)
+  and (min-device-width: 414px) {
+    html, body {
+      height: 530vh;
+      width: 100vw;
+      margin: 0;
+      background-color: grey;
+    }
+  } */

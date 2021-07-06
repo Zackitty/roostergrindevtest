@@ -1,51 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-.roosterGrinButton{
-  height: 7vh;
+.rooster-grin-button{
+  display: grid;
+  height: 45px;
   width: 150px;
   position: relative;
   justify-content: center;
   align-items: center;
-  display: grid;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 
 }
 
-#purpleButton{
+#purple-button{
   background-color: rgb(171,95,209);
   color: white;
   font-size: 120%;
   cursor:pointer;
 }
 
-#orangeButton{
-    background-color: orange;
+#orange-button{
+    width: 60%;
+    background-color: rgb(255,113,26);
     color: white;
-    font-size: 120%;
+    font-size: 10px;
     cursor:pointer;
-    width: 60%
 }
-#orangeButton:hover{
+
+#orange-button:hover{
   background-color: orangered;
   cursor:pointer;
   
 }
-#purpleButton:hover{
+
+#purple-button:hover{
   background-color: purple;
   cursor:pointer;
 }
 
 
-#purpleButton:active{
+#purple-button:active{
   background-color: rgb(171,95,209)
 }
 
-#orangeButton:active{
-  background-color: orange;
+#orange-button:active{
+  background-color: rgb(255,113,26);
 }
 
-#innerButtonText{
+#inner-button-text{
   width: 100%;
   letter-spacing: .25vw;
   margin-top: 10%;
 }
+
+@media only screen 
+  and (max-device-width: 769px) {
+
+  #purple-button{
+    background-color: rgb(171,95,209);
+    color: white;
+    font-size: 10px;
+    cursor:pointer;
+  }
+  
+  #orange-button{
+    height: 35px;
+    width: 115px;
+    font-size: 10px;
+    background-color: rgb(255,113,26);
+    color: white;
+    cursor:pointer;
+  }
+}
+
+

@@ -1,24 +1,23 @@
-import React, { useState, useEffect } from 'react';
+import React  from 'react';
 import './ThirdRowBanner.css'
 import Button from '../../Button/Button'
 import img from '../../../front-end-dev-test-assets/banner-1.jpg'
-const ThirdRowBanner = (props) => {
+import Modal
+ from '../../Modal/Modal';
+const ThirdRowBanner = ({makeModalVisible, makeModalInvisible, modalVisible}) => {
   
 
-  useEffect(() => {
-  
-  },[])
 
-  
   return (
-      <div id='thirdRowBannerWrapper'> 
-         <div id='thirdBannerSquare'> 
-         <p id="thirdRowLorem">Lorem Ipsum</p>
-         <div id="thirdRowBannerButtonContainer">
-         <Button colorScheme={"orangeButton"} buttonText={"BUTTON BUTTON"}/>
+      <div id='third-row-banner-outer-container'> 
+         <div id='third-banner-inner-container'> 
+            <p id="third-row-lorem">Lorem Ipsum</p>
+            <div id="third-row-banner-button-container">
+               <Button colorScheme={"orange-button"} buttonText={"BUTTON BUTTON"} clickHandler={makeModalVisible}/>
+            </div>
          </div>
-         </div>
-         <img id="thirdRowBannerImg" src={img} />
+         <img id="third-row-banner-img" src={img} />
+         { modalVisible && (<Modal colorScheme={'orange-button'} clickHandler={makeModalInvisible} />)}
       </div>
    )}
 

@@ -1,23 +1,52 @@
-#secondRowWrapper{
+#second-row-container{
   display: grid;
-  grid-row-start: 4;
-margin-top: 0vh;
-height: 69vh;
-  grid-row-start: 2;
-  background-color: white;
   width: 100vw;
+  height: 69vh;
+  background-color: white;
+  grid-row-start: 2;
+  grid-row-start: 4;
+  margin-top: 0vh;
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
-
+  position: relative;
 }
 
-#secondLoremWrapper{
+#second-lorem-wrapper{
 grid-column-start: 1;
 height: 100%;
 
-}
 
-#secondPicWrapper{
+}
+#second-pic-wrapper{
 grid-column-start: 2;
 
 }
+
+
+@media only screen 
+and (max-device-width: 769px) {
+    #second-row-container{
+      display: grid;
+      width: 100vw;
+      height: 138vh;
+      background-color: white;
+      grid-row-start: 2;
+      margin-top: 0vh;
+      grid-template-columns: repeat(1, 100%);
+      grid-template-rows: repeat(2, 50%);
+    }
+    
+    #second-lorem-wrapper{
+      height: 100%;
+      grid-row-start: 1;
+    }
+
+    #second-pic-wrapper{
+    grid-row-start: 2;
+    grid-column-start:1;
+    margin-top: -10vh
+
+    }
+  }
+
+  

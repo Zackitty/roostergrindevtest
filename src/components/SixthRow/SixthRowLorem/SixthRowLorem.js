@@ -1,33 +1,24 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './SixthRowLorem.css'
 
 const SixthRowLorem = (props) => {
-  
-
-  useEffect(() => {
-  
-  },[])
-
-  
   return (
-          <div id='sixthLoremWrapper'> 
-   <div id='sixthLoremSquare'>
-   <div id="sixthLorem">
-      <p id="sixthLoremTitle">
-      LOREM IPSUM DOLOR SIT AMET
-      </p>
-   </div>
-  
-         <div id="rating">
-<span className="starSpan">☆</span>
-<span className="starSpan">☆</span>
-<span className="starSpan">☆</span>
-<span className="starSpan">☆</span>
-<span className="starSpan">☆</span>
-</div>
-</div>
-</div>
-  
+          <div id='sixth-lorem-outer-container'> 
+            <div id='sixth-lorem-inner-container'>
+               <div id="sixth-lorem-title-wrapper">
+                  <p id="sixth-lorem-title">
+                     LOREM IPSUM DOLOR SIT AMET
+                  </p>
+               </div>
+               <div id="rating">
+                  <span className="star-span">☆</span>
+                  <span className="star-span">☆</span>
+                  <span className="star-span">☆</span>
+                  <span className="star-span">☆</span>
+                  <span className="star-span">☆</span>
+               </div>
+            </div>
+         </div>
    )}
 
 export default SixthRowLorem;

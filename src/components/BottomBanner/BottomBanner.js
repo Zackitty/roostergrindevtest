@@ -3,19 +3,12 @@ import './BottomBanner.css'
 import insta from '../../front-end-dev-test-assets/instagram.svg'
 import face from '../../front-end-dev-test-assets/facebook.svg'
 const BottomBanner = (props) => {
-  
-
-  useEffect(() => {
-  
-  },[])
-
-  
   return (
-      <div id="bottomBannerWrapper"> 
-          <div id="followUsDiv">
-            <p id="followUsP">Follow Us:</p>
+      <div id="bottom-banner-container"> 
+          <div id="follow-us-wrapper">
+            <p id="follow-us-paragraph">Follow Us:</p>
           </div>
-        <div id="socialMediaIcons">
+        <div id="social-media-icon-container">
          <img id="bottomFacebook"
             src={face}
           />
