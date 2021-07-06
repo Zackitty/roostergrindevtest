@@ -13,13 +13,18 @@ const SixthRowLorem = (props) => {
           <div id='sixthLoremWrapper'> 
    <div id='sixthLoremSquare'>
    <div id="sixthLorem">
-      <p>
-      Loremn ipsum dolor sit amet
+      <p id="sixthLoremTitle">
+      LOREM IPSUM DOLOR SIT AMET
       </p>
    </div>
-   </div>
-         <div className="rating">
-<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+  
+         <div id="rating">
+<span className="starSpan">☆</span>
+<span className="starSpan">☆</span>
+<span className="starSpan">☆</span>
+<span className="starSpan">☆</span>
+<span className="starSpan">☆</span>
+</div>
 </div>
 </div>
   

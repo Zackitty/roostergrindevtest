@@ -6,19 +6,17 @@
 
 #thirdRowBannerWrapper{
   display: grid;
+  height: 90vh;
   grid-template-columns: repeat(8, 20%);
   grid-template-rows: repeat(5, 20%);
 
 }
 
 #thirdRowBannerButtonContainer{
-  width: 25vw;
-  height: 5vh;
   grid-row-start: 3;
-  grid-column-start: 1;
-  margin-left: 10vw;
-  justify-content: center;
-  display: grid;
+  grid-column: 2 / span 2;
+  margin-top: -8vh;
+
 }
 
 #thirdRowLorem{
@@ -42,4 +40,7 @@
     grid-column-start: 1;
     width: 50vw;
     height: 50vh;
+    margin-left: 5vw;
+    margin-top: 15vh;
+   
   }

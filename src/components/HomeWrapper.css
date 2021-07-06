@@ -1,6 +1,6 @@
 #homeWrapper {
 display: grid;
-height: 500vh;
+height: 470vh;
 width: 100vw;
 grid-template-rows: repeat(20, 5%)
 }
@@ -38,13 +38,13 @@ height: 80vh
 #sixthRowContainer{
   height: 60vh;
   grid-row-start: 18;
-  margin-top: -6vh;
+  margin-top: 6vh;
   
 }
 
 #bottomRowContainer {
-  height: 21vh;
-  grid-row-start: 20;
+  height: 10vh;
+  grid-row-start: 21;
 
-  margin-top: 4vh;
+ 
 }

@@ -6,32 +6,41 @@
 
 #fifthRowBannerWrapper{
   display: grid;
-  grid-template-columns: repeat(8, 20%);
+  grid-template-columns: repeat(5, 20%);
   grid-template-rows: repeat(5, 20%);
-
+  height: 90vh
 }
 
 #fifthRowBannerButtonContainer{
-  width: 25vw;
-  height: 5vh;
-  grid-row-start: 3;
+  grid-row-start: 4;
   grid-column-start: 1;
-  margin-left: 10vw;
-  justify-content: center;
-  display: grid;
+  grid-column: 1 / span 2;
+  margin-top: -5vh;
 }
-
-#fifthRowLorem{
+#fithRowTitleContainer{
+  display: relative;
+  z-index: 3;
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+#fifthRowLoremTitle{
   color: purple;
   font-family: 'Roboto', sans-serif;
   font-size: 8vh;
   font-weight: 700;
-  margin-bottom: -1vh;
-  display: relative;
-  z-index: 3;
-  grid-row-start: 1;
-  grid-column-start: 2;
   width: 30vw;
+  }
+
+#fithRowParagraphContainer{
+  z-index: 3;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  width: 22vw;
+  margin-top: 1vh;
+
+}
+  #fifthRowLoremParagraph{
+    font-size: 1vw;
   }
 
   #fifthBannerSquare{
@@ -39,7 +48,8 @@
     grid-template-rows: repeat(5, 20%);
     display: grid;
     grid-row-start: 2;
-    grid-column-start: 1;
+    grid-column-start: 3;
     width: 50vw;
     height: 50vh;
+    margin-top: 5vh;
   }

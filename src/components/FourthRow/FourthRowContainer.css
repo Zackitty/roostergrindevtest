@@ -2,23 +2,17 @@
   height: 90vh;
   display: grid;
   grid-template-columns: 50% 50%;
+  width: 100vw
 }
 
 #fourthPicWrapper{
   grid-column-start: 2;
 }
 
-#fourthLoremWrapper{
-  grid-column-start: 1;
-}
 
 
-#fourthLoremWrapper{
-  display: grid;
+#fourthLoremId{
   background-color: white;
-  grid-template-columns: repeat(8, 20%);
-  grid-template-rows: repeat(5, 20%);
-  height: 100%
 }
 #fourthLoremTitle{
 color: purple;
@@ -40,9 +34,4 @@ margin-bottom: -1vh;
 
 }
 
-#fourthLoremSquare{
-  display: grid;
-  width: 30vw;
-  grid-row-start: 3;
-  grid-column-start: 9;
-}
+

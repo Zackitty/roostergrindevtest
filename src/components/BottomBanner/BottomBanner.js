@@ -19,6 +19,7 @@ const BottomBanner = (props) => {
          <img id="bottomFacebook"
             src={face}
           />
+          
         <img id="bottomInsta"
             src={insta}
           />

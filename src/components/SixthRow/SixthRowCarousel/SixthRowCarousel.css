@@ -40,7 +40,7 @@ background-image: none;
   }
 
   #precious{
-    background-color: yellow;
+    background-color:rgb(252,229,105);
     border-radius: 50%;
     width: 12px;
     height: 12px;
@@ -54,7 +54,7 @@ background-image: none;
     width: 12px;
     height: 12px;
     margin: 0;
-    background-color: orange;
+    background-color: rgb(251,201,25)
   }
 
 #myCarousel.carousel.slide{

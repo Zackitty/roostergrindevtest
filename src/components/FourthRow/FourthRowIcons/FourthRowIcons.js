@@ -16,10 +16,12 @@ const FourthRowIcons = (props) => {
   
   return (
       <div id="iconWrapper"> 
-         <div><img className="fourthIcon" id="iconOne" src={iconOne}></img></div>
-         <div><img className="fourthIcon" id='iconTwo' src={iconTwo}></img></div>
-         <div><img className="fourthIcon" id='iconThree' src={iconThree}></img></div>
-         <div><img className="fourthIcon" id='iconFour' src={iconFour}></img></div>
+         <div id="secondIconWrapper">
+         <div id="iconOne"><img className="fourthIcon"  src={iconOne}></img></div>
+         <div id='iconTwo'><img className="fourthIcon"  src={iconTwo}></img></div>
+         <div id='iconThree'><img className="fourthIcon"  src={iconThree}></img></div>
+         <div id='iconFour'><img className="fourthIcon"  src={iconFour}></img></div>
+         </div>
       </div>
    )}
 

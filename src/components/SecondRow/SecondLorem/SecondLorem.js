@@ -16,7 +16,7 @@ const SecondLorem = (props) => {
             <p id="secondLoremTitle">LOREM IPSUM</p>
          </div>
          <div id="secondLoremParagraphContainer">
-            <p>
+            <p id="secondLoremParagraph">
             Loremn ipsum dolor sit amet, et felis integer. Cras ac, duis nisl magna
             est sociis, neque in odio vel, sit lobortis erat. Fugit quam, ut pede ut ante,
             in viverra eros dictum nisl ligula, lacus est vehicula donec. Quam in ac quam

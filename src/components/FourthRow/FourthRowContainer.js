@@ -12,7 +12,7 @@ const FourthRowContainer = (props) => {
   
   return (
       <div id="fourthRowWrapper"> 
-         <div id='fourthLoremWrapper'>
+         <div id='fourthLoremId'>
          <FourthRowLorem />
          </div>
          <div id="fourthPicWrapper">

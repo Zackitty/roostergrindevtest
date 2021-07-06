@@ -13,7 +13,16 @@ const FifthRowBanner = (props) => {
   return (
          <div id='fifthRowBannerWrapper'> 
          <div id='fifthBannerSquare'> 
-         <p id="fifthRowLorem">Lorem Ipsum</p>
+         <div id='fithRowTitleContainer'>
+         <p id="fifthRowLoremTitle">Lorem Ipsum</p>
+         </div>
+         <div id='fithRowParagraphContainer'>
+         <p id="fifthRowLoremParagraph">Lorem ipsum dolor sit amet, et felis integer.
+         Cras ac, duis nisl magna est sociis, neque in 
+         odio vel, sit lobortis erat. Fugit quam, ut pede
+         ut ant, in viverra eros dictum nisl ligula.
+         </p>
+         </div>
          <div id="fifthRowBannerButtonContainer">
          <Button colorScheme={"orangeButton"} buttonText={"BUTTON BUTTON"}/>
          </div>

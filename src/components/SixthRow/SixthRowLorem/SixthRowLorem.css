@@ -1,21 +1,37 @@
 #sixthLoremWrapper{
   display: grid;
   background-color: white;
-
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(5, 20%);
   height: 100%
 }
 #sixthLoremTitle{
-color: purple;
+color: black;
 font-family: 'Roboto', sans-serif;
-font-size: 8vh;
+font-size: 7vh;
 font-weight: 700;
-margin-bottom: -1vh;
+width: 30vw;
 }
 
 
 #sixthLoremSquare{
   display: grid;
   width: 30vw;
-  grid-row-start: 3;
-  grid-column-start: 9;
+  height: 40vh;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(5, 20%);
+  grid-column-start: 2;
+  grid-row-start: 2;
+} 
+
+#rating {
+  grid-row-start: 4;
+  font-size: 4vh;
+  margin-top: -3vh;
+  
+}
+.starSpan {
+  background: rgb(254,114,22);
+  color: rgb(254,114,22);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }

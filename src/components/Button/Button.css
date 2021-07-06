@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .roosterGrinButton{
   height: 7vh;
-  width: 17vw;
+  width: 150px;
   position: relative;
   justify-content: center;
   align-items: center;
@@ -14,18 +14,16 @@
 #purpleButton{
   background-color: rgb(171,95,209);
   color: white;
-  font-size: 1.5vw;
+  font-size: 120%;
   cursor:pointer;
-
 }
 
 #orangeButton{
     background-color: orange;
     color: white;
-    font-size: 1.5vw;
+    font-size: 120%;
     cursor:pointer;
-  
-  
+    width: 60%
 }
 #orangeButton:hover{
   background-color: orangered;
@@ -35,12 +33,10 @@
 #purpleButton:hover{
   background-color: purple;
   cursor:pointer;
-  
 }
 
 
 #purpleButton:active{
-
   background-color: rgb(171,95,209)
 }
 
@@ -49,8 +45,7 @@
 }
 
 #innerButtonText{
-  width: 20vw;
-  margin-left: 5vw;
+  width: 100%;
   letter-spacing: .25vw;
-  margin-top: 1.75vh;
+  margin-top: 10%;
 }

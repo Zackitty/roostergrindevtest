@@ -1,0 +1,40 @@
+#fourthLoremWrapper{
+  display: grid;
+  background-color: white;
+   height: 100%;
+  width: 50vw;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(5, 20%);
+
+}
+#fourthLoremTitle{
+color: black;
+font-family: 'Roboto', sans-serif;
+font-size: 3.2vw;
+font-weight: 700;
+margin-bottom: -1vh;
+
+}
+
+#fourthLoremLink{ 
+  color: purple;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1vw;
+  font-weight: 700;
+  font-style: bold;
+}
+
+
+#fourthLoremSquare{
+  display: grid;
+  width: 30vw;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  margin-top: 30%;
+  margin-left: 30%;
+
+}
+
+#fourthLoremParagraph{
+  font-size: 1vw;
+}

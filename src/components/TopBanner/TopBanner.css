@@ -4,69 +4,64 @@
   width:100vw
 }
 
+#topBannerContainer{
+height: 80vh 
+}
+
 #topBannerImageContainer{
   width: 100vw;
+  height: 80vh;
   grid-column: 1/20 
 }
 
 #topBannerId{
-height: 75vh;
-width: 100vw;
+height: 80vh;
+width: 100%;
 display: grid;
-grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
-grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
-justify-items: center;
+grid-template-columns: repeat(15, 5%);
+grid-template-rows: repeat(10, 5%);
+
 }
 
 #topBannerButtonContainer{
-  width: 25vw;
-  height: 5vh;
-  justify-content: center;
   display: grid;
-  margin-right: 8vw;
-  grid-column-end: 12;
-  grid-row: 14;
+  grid-column: 10 / span 2;
+  grid-row: 11;
+  margin-top: 50%;
 }
 
 #logoWhite {
   width: 20vw;
-  height: 50vh;
-  
-
+  height: 10vh;
 }
+
 #logoWhiteContainer {
     width: 20vw;
-    height: 50vh;
+    height: 10vh;
     z-index: 3;
     margin-right: -10vh;
     margin-top: -10vh;
     grid-column-end: 3;
-    grid-row: 2;
+    grid-row: 4;
 
 }
 
 #outlineLetterLogo{
 font-size: 5.6vw;
-width: 40vw;
-height: 10%;
 -webkit-text-stroke-width: 2px;
 -webkit-text-stroke-color: white;
-grid-column-end: 3;
-grid-row-start: 7;
-display: grid;
+grid-column-start: 2;
+margin-left: -5%;
 color: rgba(0, 0, 0, 0);
 font-family: 'Roboto', sans-serif;
-
-margin-left: -1vw;
 }
 
 #outlineLetterLogoContainer{
-  display: grid;
-  grid-row-start: 12;
-  width: 100%;
-  height: 100%;
-grid-column-end: 5;
-margin-top: -10vh;
+display: grid;
+width: 50vw;
+height: 20vh;
+margin-left: -2vw;
+margin-top:  -5vh;
 }
 
 #bigLogoContainer{
@@ -74,28 +69,23 @@ margin-top: -10vh;
   position: relative;
   height: 50vh;
   width: 50vw;
-  grid-column-end: 11;
-  grid-row-end: 5;
+  grid-column-end: 8;
+  grid-row-end: 8;
   grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
 grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
 }
 
 #thickLetterLogoContainer{
   display: grid;
-  width: 20vw;
-  height: 100%;
-margin-right: -100vw;
-  grid-column-end: 0;
-  margin-left: -8vw;
-  grid-row-end: 4;
+  width: 50vw;
+  height: 25vh;
+  grid-column-end: 4;
+  grid-row-end: 6;
+  margin-right: -4vw;
 }
 
-#thickLetterLogo{
-  margin-left: 15vw;
+#thickLetterLogo{ 
 font-size: 5vw;
-width:35vw;
-grid-column-end: 1;
-grid-row-end: 3;
 color: white;
 font-family: 'Roboto', sans-serif;
 }
